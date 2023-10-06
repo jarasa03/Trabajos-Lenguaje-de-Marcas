@@ -1,0 +1,17 @@
+/* @author jarasa03 */
+
+body {
+    background-color: bisque;
+    margin: 0%;
+}
+
+#d1 {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    /* background: linear-gradient(red, blue); */
+    /* background: radial-gradient(red, yellow); */
+    margin: 10%;
+    /* background: conic-gradient(red, yellow, red) */
+    background: radial-gradient(at 100% 100%, red, yellow, green);
+}
