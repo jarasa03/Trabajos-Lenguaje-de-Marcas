@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<!-- @author jarasa03 -->
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/Stylesheet.css">
+</head>
+
+<body>
+    <div id="formulario">
+        <form action="mailto:nombreservidor" method="post">
+            <h1>Datos de contacto</h1>
+            <br>
+            <fieldset>
+                <legend>Datos personales</legend>
+                <label for="a1">Apellido</label>
+                <input type="text" name="apel" id="a1">
+                <br>
+                <br>
+                <label for="no">Nombre</label>
+                <input type="text" name="nombre" id="no">
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Sexo</legend>
+                <!-- Femenino -->
+                <input type="radio" name="sex" id="Fem">
+                <label for="Fem">Femenino</label>
+                <!-- Masculino -->
+                <input type="radio" name="sex" id="Mas">
+                <label for="Mas">Masculino</label>
+                <!-- Transformer -->
+                <input type="radio" name="sex" id="Trans">
+                <label for="Trans">Transformer</label>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>
+                    Idiomas
+                </legend>
+                <label for="in">Inglés</label>
+                <input type="checkbox" name="idiomas" id="in" value="in">
+
+                <label for="fr">Francés</label>
+                <input type="checkbox" name="idiomas" id="fr" value="fr">
+
+                <label for="al">Alemán</label>
+                <input type="checkbox" name="idiomas" id="al" value="al">
+
+                <label for="otros">Indique idioma:</label>
+                <input type="text" name="idiomas" id="otros" value="">
+                <select name="nivel" id="">
+                    <optgroup label="Nivel básico">
+                        <option value="A1">A1</option>
+                        <option value="A2">A2</option>
+                    </optgroup>
+
+                    <optgroup label="Nivel medio">
+                        <option value="B1">B1</option>
+                        <option value="B2">B2</option>
+                    </optgroup>
+
+                    <optgroup label="Nivel avanzado">
+                        <option value="C1">C1</option>
+                        <option value="C2">C2</option>
+                    </optgroup>
+                </select>
+            </fieldset>
+            <fieldset id="ac">
+                <legend>Acciones</legend>
+                <!-- Dos posibles botones de envio -->
+                <br>
+                <input id="bt" type="submit" value="Enviar">
+                <br>
+                <button type="submit" id="en"><img id="img-en" src="../IMG/Send-email.png" alt="Boton de envio"></button>
+                <br><br>
+                <input id="bt" type="reset" value="Pincha para borrar">
+                <br>
+                <button type="reset" id="en"><img id="img-re" src="../IMG/reset-przycisk.jpg" alt="Boton de borrar"></button>
+            </fieldset>
+
+        </form>
+
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+fieldset {
+    background-color: pink;
+    box-shadow: 3px 4px 4px rgb(249, 146, 177);
+    border: 0px;
+    border-radius: 5px;
+}
+
+legend {
+    background-color: rgb(255, 253, 154);
+    border: 0px;
+    box-shadow: 3px 4px 4px rgb(249, 146, 177);
+    border-radius: 20px;
+}
+
+div {
+    position: absolute;
+    width: 70%;
+    height: 80%;
+    left: 15%;
+    box-shadow: 3px 5px 10px rgb(249, 146, 177);
+    background: linear-gradient(90deg, white, rgb(203, 248, 246) 50%);
+}
+
+h1 {
+    text-shadow: 3px 4px 4px rgb(130, 207, 238);
+    margin-left: 20px;
+}
+
+optgroup {
+    background: rgb(202, 126, 247);
+}
+
+#en {
+    width: 15%;
+}
+
+#img-en {
+    width: 100%;
+    margin-top: 5px;
+}
+
+#img-re {
+    width: 100%;
+    margin-top: 5px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+#bt {
+    background-color: rgb(196, 230, 251);
+    border: none;
+}
+
+#ac {
+    margin-top: 15px;
+}
