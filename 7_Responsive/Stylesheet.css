@@ -1,0 +1,39 @@
+div {
+    position: absolute
+}
+
+#d1 {
+    background-color: aquamarine;
+}
+
+#d2 {
+    background-color: red;
+}
+
+#d3 {
+    background-color: black;
+}
+
+
+/* reglas para resolución igual o mayor a 780 px */
+
+@media screen and (min-width:780px) {
+    #d1 {
+        width: 100%;
+        height: 30%;
+        top: 0;
+        left: 0;
+    }
+    #d2 {
+        width: 50%;
+        height: 70%;
+        top: 30%;
+        left: 0;
+    }
+    #d3 {
+        width: 50%;
+        height: 70%;
+        top: 30%;
+        left: 50%;
+    }
+}
