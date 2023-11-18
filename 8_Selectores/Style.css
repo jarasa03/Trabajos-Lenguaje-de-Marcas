@@ -1,0 +1,43 @@
+* {
+    color: blue;
+}
+
+p {
+    color: black;
+}
+
+
+/* p+p {
+    color: green;
+} */
+
+p~p {
+    color: red;
+}
+
+.abuelo1 {
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    background-color: blue;
+}
+
+span {
+    color: lightseagreen;
+}
+
+
+/* p+span {
+    color: pink;
+    background-color: black;
+} */
+
+
+/* span~span {
+    color: white;
+    background-color: black;
+} */
+
+p>span {
+    color: greenyellow;
+}
