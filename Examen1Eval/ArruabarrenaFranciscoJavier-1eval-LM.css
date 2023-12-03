@@ -1,0 +1,233 @@
+/* Todos los elementos */
+
+fieldset {
+    border-radius: 7px;
+}
+
+legend {
+    border-radius: 7px;
+}
+
+select {
+    border-radius: 7px;
+}
+
+button {
+    border-radius: 7px;
+}
+
+
+/* Cuerpo
+color de fondo #15202b
+*/
+
+body {
+    background-color: #15202b;
+    margin: 0;
+    padding: 0s;
+}
+
+
+/* Titulo de nivel 1 
+color de letra #d3ffe7
+valores de la sombra: 2px 2px 11px rgba(5, 251, 116, 0.4)
+*/
+
+h1 {
+    color: #d3ffe7;
+    text-shadow: 2px 2px 11px rgba(5, 251, 116, 0.4);
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 35px;
+    font-variant: small-caps;
+    letter-spacing: 4px;
+}
+
+
+/* Animación para el título Ies La Paloma */
+
+
+/* Líneas horizontales
+color de fondo #61cb91
+color de borde #17bf63
+valores de sombra: 0px 0px 4px 3px #17bf6380
+*/
+
+hr {
+    background-color: #61cb91;
+    border-color: #17bf63;
+    box-shadow: 0px 0px 4px 3px #17bf6380;
+    height: 1px;
+    width: 46%;
+}
+
+
+/* Todos los fieldset 
+color de fondo #1c2d3e
+valores de la sombra: 0px 0px 22px 6px #3783ca
+*/
+
+fieldset {
+    background-color: #1c2d3e;
+    width: 60%;
+    position: relative;
+    margin: auto;
+    box-shadow: 0px 0px 22px 6px #3783ca;
+}
+
+
+/* Al pasar el cursor sobre los fieldset 
+valores de la sombra: inset 0px 0px 23px 2px #3783ca
+*/
+
+fieldset:hover {
+    box-shadow: inset 0px 0px 23px 2px #3783ca;
+}
+
+
+/* Todas las leyendas de los fieldset
+color de letra #17bf63
+color de fondo #274663
+*/
+
+legend {
+    font-weight: 500;
+    color: #17bf63;
+    border: solid 1.5px white;
+    background-color: #274663;
+    font-family: "Open Sans", sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 0.8em;
+}
+
+
+/* Todas las etiquetas del formulario y las celdas de las tablas */
+
+td {
+    color: whitesmoke;
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;
+}
+
+.centro {
+    width: 7px;
+}
+
+.centro2 {
+    width: 20px;
+}
+
+
+/* Todos los input 
+color de fondo: #1e4060
+color de letra: #7e7e7e
+*/
+
+input {
+    border-style: none;
+    border-bottom: solid 2px white;
+    background-color: #1e4060;
+    font-weight: 500;
+    border-radius: 4px 4px 1px 1px;
+    color: #7e7e7e;
+}
+
+
+/* Al pasar el cursor sobre los input 
+color de fondo: #85aed1
+color de letra: #1d4469
+sombra de los input con valores: 0px 0px 22px 9px #3783ca
+*/
+
+input:hover {
+    background-color: #85aed1;
+    color: #1d4469;
+    box-shadow: 0px 0px 22px 9px #3783ca;
+}
+
+
+/* Botón de enviar 
+color de fondo: #15202b
+sombra para el botón con valores: 0px 0px 26px 7px #66bb6ab3
+*/
+
+#env {
+    position: absolute;
+    right: 24%;
+    border: none;
+    background-color: #15202b;
+    box-shadow: 0px 0px 26px 7px #66bb6ab3;
+    display: inline;
+}
+
+
+/* Al pasar el cursor sobre el botón de enviar 
+sombra con valores: 0px 0px 11px 4px #cccccc
+*/
+
+#env:hover {
+    box-shadow: 0px 0px 11px 4px #cccccc;
+}
+
+
+/* Botón de borrar 
+color de fondo: #15202b
+sombra para el botón con valores:0px 0px 26px 7px #cc3333b3
+*/
+
+#pap {
+    position: absolute;
+    left: 24%;
+    border: none;
+    background-color: #15202b;
+    box-shadow: 0px 0px 26px 7px #66bb6ab3;
+    display: inline;
+}
+
+
+/* Al pasar el cursor sobre el botón de borrar 
+sombra con valores: 0px 0px 11px 4px #cccccc
+*/
+
+#pap:hover {
+    box-shadow: 0px 0px 11px 4px #cccccc;
+}
+
+
+/* Pie de página */
+
+footer {
+    padding-top: 20px;
+    margin-top: 8vh;
+    width: 70%;
+    position: absolute;
+    text-align: center;
+    left: 15%;
+}
+
+
+/* Imagen para abrir el enlace del instituto 
+sombra para el boton con valores: 0px 0px 5px 3px #fcb527b3
+*/
+
+#mapita {
+    width: 60px;
+    margin-bottom: 6vh;
+    box-shadow: 0px 0px 5px 3px #fcb527b3;
+}
+
+
+/* Al pasar el cursor sobre la imagen para abrir el enlace del instituto
+sombra para el boton con valores: 0px 0px 5px 6px #fcb527b3
+*/
+
+#mapita:hover {
+    box-shadow: 0px 0px 5px 6px #fcb527b3;
+}
+
+img {
+    width: 40px;
+}

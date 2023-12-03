@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="ArruabarrenaFranciscoJavier-1eval-LM.css">
+    <title>Hoja de Información</title>
+</head>
+
+<body>
+    <h1>solicitud de información</h1>
+    <h1>Ies La Paloma</h1>
+    <hr><br>
+    <!-- indica mi correo para enviar el formulario: eg.profe@gmail.com -->
+
+    <form action="eg.profe@gmail.com" method="post">
+        <div>
+            <fieldset>
+                <legend>Datos personales</legend>
+                <table>
+                    <tr>
+                        <td><label for="nombre">Nombre:</label><br>
+                            <input placeholder="Insertar Nombre" type="text" id="nombre" name="nombre"><br></td>
+                        <td class="centro"></td>
+                        <td><label for="ape">Apellidos:</label><br>
+                            <input placeholder="Ambos Apellidos" type="text" id="ape" name="ape"><br></td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="pro">Provincia:</label><br>
+                            <select name="pro" id="pro">
+                                <option value="Seleccionar Provincia" selected>Seleccionar Provincia</option>
+                                <optgroup label="Castilla la Mancha">
+                                    <option value="Guadalajara">Guadalajara</option>
+                                    <option value="Toledo">Toledo</option>
+                                    <option value="Ciudad Real">Ciudad Real</option>
+                                    <option value="Cuenca">Cuenca</option>
+                                    <option value="Albacete">Albacete</option>
+                                </optgroup>
+                                <optgroup label="Comunidad de Madrid">
+                                    <option value="Madrid">Madrid</option>
+                                </optgroup>
+                              </select><br></td>
+                        </td>
+                        <td class="centro2"></td>
+                        <td><label for="fech">Fecha de Nacimiento:</label><br>
+                            <input type="date" name="fech" id="fech">
+                        </td>
+                    </tr>
+                </table>
+            </fieldset><br><br>
+            <fieldset>
+                <legend>Cursos</legend>
+                <table>
+                    <tr>
+                        <td><label for="DAW">DAW</label><input type="checkbox" name="DAW" id="DAW"></td>
+                        <td class="centro"></td>
+                        <td><label for="DAM">DAM</label><input type="checkbox" name="DAM" id="DAM"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="otros">Otros (especifique)</label><input type="checkbox" name="otros" id="otros"></td>
+                        </td>
+                        <td class="centro"></td>
+                        <td>
+                            <input placeholder="Marketing/Comercio..." type="text" name="espe" id="espe"></td>
+                    </tr>
+                </table>
+            </fieldset><br><br>
+            <fieldset>
+                <legend>Datos Adicionales</legend>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="correo">Correo Electrónico</label>
+                        </td>
+                        <td class="centro"></td>
+                        <td>
+                            <label for="tel">Teléfono Móvil</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input placeholder="nombre@educa.madrid.org" type="email" name="correo" id="correo"></td>
+                        <td class="centro"></td>
+                        <td><input placeholder="000000000" type="tel" name="tel" id="tel"></td>
+                    </tr>
+                </table>
+            </fieldset><br>
+        </div>
+        <div>
+            <div id="izq">
+                <button id="pap"><img src="Papelera.png" alt="Papelera"></button>
+            </div>
+            <div>
+                <button id="env"><img src="Enviar.png" alt="Enviar"></button>
+            </div>
+        </div>
+    </form>
+    <!-- la url de la web a la que dirige el enlace es https://www.palomafp.org/nuestro-centro/#comollegar -->
+
+    <footer>
+        <hr><br>
+        <button><a id="mapita" href="https://www.palomafp.org/nuestro-centro/#comollegar"><img src="mapa.png" alt="Mapa"></a></button>
+
+    </footer>
+
+
+
+</body>
+
+</html>
