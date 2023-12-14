@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ventana Emergente</title>
+</head>
+
+<body>
+    <div11>
+        <button type="button" onclick="alert('Hola, ¿como estás?')">Click</button>
+    </div11>
+    <div21>
+        <button type="button" onclick="saludo()">Doble Click</button>
+        <script>
+            function saludo() {
+                var sal = prompt("¿Cómo te llamas?");
+                if (sal == null) {
+                    alert("Hasta pronto");
+                } else if (sal == "") {
+                    alert("Introduce algo");
+                } else {
+                    alert("Hola " + sal);
+                }
+            }
+        </script>
+    </div21>
+    <div31>
+        <button type="button" onclick="visitPaloma()">La Paloma</button>
+        <script>
+            function visitPaloma() {
+                var vis = confirm("Visitamos la web de la paloma?");
+                if (vis) {
+                    window.open("https://www.palomafp.org")
+                }
+            }
+        </script>
+    </div31>
+</body>
+
+</html>
