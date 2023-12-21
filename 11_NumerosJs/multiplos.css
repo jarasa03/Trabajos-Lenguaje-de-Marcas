@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#d1 {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    background-color: aqua;
+}
+
+#d2 {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    background-color: pink;
+    top: 50%;
+}
