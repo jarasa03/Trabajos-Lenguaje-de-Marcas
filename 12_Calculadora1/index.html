@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script src="script.js"></script>
+    <div>
+        <form action="">
+            <fieldset>
+                <legend>
+                    Calculadora
+                </legend>
+                <table>
+                    <tr>
+                        <td></td>
+                        <td id="disp" colspan="2"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="number" id="n1">
+                        </td>
+                        <td>
+                            <select name="" id="op">
+                                <option value="" hidden>Operación</option>
+                                <option value="suma">+</option>
+                                <option value="resta">-</option>
+                                <option value="division">/</option>
+                                <option value="producto">*</option>
+                            </select>
+                        </td>
+                        <td>
+                            <input type="number" id="n2">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td> <button type="button" onclick="calculadora()">Calcular</button></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>
